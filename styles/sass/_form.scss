@@ -1,0 +1,102 @@
+.bg-title {
+    animation: changeColor 2s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        background: linear-gradient(to left, #a79d8e, #ffa500, #a79d8e);
+    }
+    100% {
+        background: linear-gradient(to right, #ffa500, #a79d8e, #ffa500);
+    }
+}
+
+.checkbox {
+    position: relative;
+    padding-right: 2.1rem;
+    padding-top: 0.4rem;
+}
+.checkbox input {
+    display: none;
+}
+
+.checkbox .checkmark {
+    height: 1.56rem;
+    width: 1.56rem;
+    background-color: colors.$bg-checkbox;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.checkbox:hover .checkmark {
+    background-color: colors.$bg-checkbox-hover;
+}
+
+.checkbox input:checked ~ .checkmark {
+    background-color: colors.$bg-cheked-color;
+}
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 0.6rem;
+    height: 1rem;
+    border: solid #ffffff;
+    top: 3px;
+    right: 7px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.checkbox input:checked ~ .checkmark::after {
+    display: block;
+}
+
+.btn-outline-orange {
+    color: #ffa500;
+    border: solid #ffa500;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-orange:hover {
+    background-color: #ffa500;
+    color: #ffffff;
+}
+
+.border_sty {
+    border-style: solid;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.border_sty:hover {
+    border-color: colors.$border-sty;
+    color: colors.$border-sty;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.border_sty-tel {
+    border-style: solid;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.border_sty-tel:hover {
+    border-color: #2196f3;
+    background-color: #f4f8fc;
+    color: #2196f3;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.icon-hover:hover {
+    background-color: #2196f3;
+}
+
+.text-hover:hover{
+    color: #535252;
+}

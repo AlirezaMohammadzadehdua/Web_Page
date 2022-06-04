@@ -1,0 +1,290 @@
+@media (max-width: 768px) {
+  .body {
+    margin-top: 1.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .resposive-btn {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 991px) {
+  .resposive-btn {
+    display: inline-block;
+  }
+}
+@media (max-width: 767px) {
+  .media {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .media-card {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .resposive-footer {
+    max-width: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .media-p {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .media-Follow-up {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+.Free-Doge:hover, .Follow-up:hover, .contactus:hover, .other:hover, .exchange:hover, .home:hover {
+  background-color: #ffa500;
+  color: #000000 !important;
+}
+
+.border_4, .border_1 {
+  border-right-color: #f5af6e;
+  border-left-color: #f5af6e;
+  border-right-width: 0.5rem;
+  border-left-width: 0.5rem;
+}
+
+.border_3, .border_2 {
+  border-right-width: 0.5rem;
+  border-right-color: #8f8e8e;
+  border-left-width: 0.5rem;
+  border-left-color: #8f8e8e;
+}
+
+.card-Transaction-style, .card-exchange-style, .card-refund-style, .card-secure-style, .card-animation-4, .card-animation-3, .card-animation-2, .card-animation {
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  transition: all 0.3s ease;
+}
+
+.bg-title {
+  animation: changeColor 2s infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    background: linear-gradient(to left, #a79d8e, #ffa500, #a79d8e);
+  }
+  100% {
+    background: linear-gradient(to right, #ffa500, #a79d8e, #ffa500);
+  }
+}
+.checkbox {
+  position: relative;
+  padding-right: 2.1rem;
+  padding-top: 0.4rem;
+}
+
+.checkbox input {
+  display: none;
+}
+
+.checkbox .checkmark {
+  height: 1.56rem;
+  width: 1.56rem;
+  background-color: #ccc;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.checkbox:hover .checkmark {
+  background-color: #8f8e8e;
+}
+
+.checkbox input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  width: 0.6rem;
+  height: 1rem;
+  border: solid #ffffff;
+  top: 3px;
+  right: 7px;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox input:checked ~ .checkmark::after {
+  display: block;
+}
+
+.btn-outline-orange {
+  color: #ffa500;
+  border: solid #ffa500;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-orange:hover {
+  background-color: #ffa500;
+  color: #ffffff;
+}
+
+.border_sty {
+  border-style: solid;
+  border-top-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.border_sty:hover {
+  border-color: #068080;
+  color: #068080;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.border_sty-tel {
+  border-style: solid;
+  border-top-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.border_sty-tel:hover {
+  border-color: #2196f3;
+  background-color: #f4f8fc;
+  color: #2196f3;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.icon-hover:hover {
+  background-color: #2196f3;
+}
+
+.text-hover:hover {
+  color: #535252;
+}
+
+/* ! END HEADER */
+.btn-custom {
+  background-color: #ffa500;
+  border: none;
+}
+
+.personal-style {
+  background-color: #990f1b28;
+  border: none;
+}
+
+.bg_light {
+  background-color: #fffcf4;
+}
+
+.txt-color {
+  color: #000000;
+}
+
+/*  !START SECTION 2 */
+.sect-2 {
+  background: linear-gradient(to bottom, #f1eddf, #d3cbbf);
+}
+
+/* ** START SECTION 3 */
+.bg-card {
+  background-color: #fffcf0;
+}
+
+.card-animation:hover {
+  transform: translateY(-6px);
+}
+
+.bg-card-1 {
+  background-color: #e1f8f0;
+}
+
+.bg-card-2 {
+  background-color: #e9e0cd;
+}
+
+.card-animation-2:hover {
+  transform: translateY(-6px);
+}
+
+.card-animation-3:hover {
+  transform: translateY(-6px);
+}
+
+.card-animation-4:hover {
+  transform: translateY(-6px);
+}
+
+.transform {
+  transform: translateY(-6px);
+}
+
+.sharp:hover {
+  background: linear-gradient(to bottom, red, #ffa500);
+  -webkit-background-clip: text;
+  background-clip: text;
+  cursor: pointer;
+}
+
+.table_hover:hover {
+  background: linear-gradient(to right, #fcf5ef 70%, #d8d6d5);
+}
+
+.card-secure-style {
+  background: linear-gradient(to left, #96e996, #cbdfcb);
+}
+
+.card-secure-style:hover {
+  background: linear-gradient(to right, #96e996, #cbdfcb);
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 5px #000000;
+}
+
+.card-refund-style {
+  background: linear-gradient(to left, #cceeec 50%, #cbdfcb);
+}
+
+.card-refund-style:hover {
+  background: linear-gradient(to right, #cceeec, #cbdfcb);
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 5px #000000;
+}
+
+.position-relative {
+  right: 3.2rem;
+}
+
+.card-exchange-style {
+  background: linear-gradient(to left, #f0d5d9 55%, #d6d6d6);
+}
+
+.card-exchange-style:hover {
+  background: linear-gradient(to right, #f0d5d9 55%, #d6d6d6);
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 5px #000000;
+}
+
+.card-Transaction-style {
+  background: linear-gradient(to left, #f8f878, #f5efef);
+}
+
+.card-Transaction-style:hover {
+  background: linear-gradient(to right, #f8f878, #f5efef);
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 5px #000000;
+}
+
+.style_bg {
+  background: linear-gradient(to bottom, #dfd2ba, #ffffff);
+}
+
+/*# sourceMappingURL=style.css.map */

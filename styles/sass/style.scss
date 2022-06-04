@@ -1,0 +1,180 @@
+@use "mediaquery";
+@use "colors";
+@import "inheritance";
+@import "form";
+
+.home:hover {
+    @extend %hover;
+}
+.exchange:hover {
+    @extend %hover;
+}
+.other:hover {
+    @extend %hover;
+}
+.contactus:hover {
+    @extend %hover;
+}
+.Follow-up:hover {
+    @extend %hover;
+}
+.Free-Doge:hover {
+    @extend %hover;
+}
+/* ! END HEADER */
+
+.btn-custom {
+    background-color: colors.$bg-hover;
+    border: none;
+}
+
+.personal-style {
+    background-color: colors.$btn-color;
+    border: none;
+}
+.bg_light {
+    background-color: colors.$bg-light;
+}
+.txt-color {
+    color: colors.$color-hover;
+}
+
+/*  !START SECTION 2 */
+.sect-2 {
+    background: linear-gradient(to bottom, colors.$sect-2-color, colors.$sect-2-color-2);
+}
+
+/* ** START SECTION 3 */
+.bg-card {
+    background-color: colors.$bg-card;
+}
+
+.border_1 {
+    @extend %border-style-orange;
+}
+.card-animation {
+    @extend %card-animation;
+}
+.card-animation:hover {
+    transform: translateY(-6px);
+}
+
+.bg-card-1 {
+    background-color: colors.$bg-card-1;
+}
+
+.bg-card-2 {
+    background-color: colors.$bg-card-2;
+}
+.card-animation-2 {
+    @extend %card-animation;
+}
+
+.card-animation-2:hover {
+    transform: translateY(-6px);
+}
+
+.border_2 {
+    @extend %border-color-gray;
+}
+
+.card-animation-3 {
+    @extend %card-animation;
+}
+.card-animation-3:hover {
+    transform: translateY(-6px);
+}
+.border_3 {
+    @extend %border-color-gray;
+}
+.card-animation-4 {
+    @extend %card-animation;
+}
+
+.card-animation-4:hover {
+    transform: translateY(-6px);
+}
+
+.border_4 {
+    @extend %border-style-orange;
+}
+
+.transform {
+    transform: translateY(-6px);
+}
+
+.sharp:hover {
+    background: linear-gradient(to bottom, colors.$sharp, colors.$sharp-2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    cursor: pointer;
+}
+
+.table_hover:hover {
+    background: linear-gradient(to right, colors.$table-hover-left 70%, colors.$table-hover-right);
+}
+
+.card-secure-style {
+    background: linear-gradient(to left, colors.$card-secure-color-gradient, colors.$card-secure-color-gradient-2);
+    @extend %card-animation;
+}
+.card-secure-style:hover {
+    background: linear-gradient(to right, colors.$card-secure-color-gradient, colors.$card-secure-color-gradient-2);
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.card-refund-style {
+    background: linear-gradient(to left, colors.$card-refund-color-gradient 50%, colors.$card-refund-color-gradient-2);
+    @extend %card-animation;
+}
+.card-refund-style:hover {
+    background: linear-gradient(to right, colors.$card-refund-color-gradient, colors.$card-refund-color-gradient-2);
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.position-relative {
+    right: 3.2rem;
+}
+
+.card-exchange-style {
+    background: linear-gradient(
+        to left,
+        colors.$card-exchange-color-gradient 55%,
+        colors.$card-exchange-color-gradient-2
+    );
+    @extend %card-animation;
+}
+.card-exchange-style:hover {
+    background: linear-gradient(
+        to right,
+        colors.$card-exchange-color-gradient 55%,
+        colors.$card-exchange-color-gradient-2
+    );
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.card-Transaction-style {
+    background: linear-gradient(
+        to left,
+        colors.$card-transaction-color-gradient,
+        colors.$card-transaction-color-gradient-2
+    );
+    @extend %card-animation;
+}
+
+.card-Transaction-style:hover {
+    background: linear-gradient(
+        to right,
+        colors.$card-transaction-color-gradient,
+        colors.$card-transaction-color-gradient-2
+    );
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.style_bg {
+    background: linear-gradient(to bottom, colors.$end-wave-color, #ffffff);
+}

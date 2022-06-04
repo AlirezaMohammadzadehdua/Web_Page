@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    .body {
+        margin-top: 1.5rem;
+    }
+}
+@media (max-width: 991px) {
+    .resposive-btn {
+        margin-top: 1rem;
+    }
+}
+@media (min-width: 991px) {
+    .resposive-btn {
+        display: inline-block;
+    }
+}
+@media (max-width: 767px) {
+    .media {
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 767px) {
+    .media-card {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .resposive-footer {
+        max-width: 200px;
+    }
+}
+@media (max-width: 400px) {
+    .media-p{
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .media-Follow-up {
+        margin-top: 1rem;
+        text-align: center;
+    }
+}

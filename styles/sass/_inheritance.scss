@@ -1,0 +1,24 @@
+%hover {
+    background-color: colors.$bg-hover;
+    color: colors.$color-hover !important;
+}
+
+%border-style-orange {
+    border-right-color: colors.$border-color-orange;
+    border-left-color: colors.$border-color-orange;
+    border-right-width: 0.5rem;
+    border-left-width: 0.5rem;
+}
+%border-color-gray {
+    border-right-width: 0.5rem;
+    border-right-color: colors.$border-color-gray;
+    border-left-width: 0.5rem;
+    border-left-color: colors.$border-color-gray;
+}
+%card-animation {
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition: all .3s ease;
+
+}
